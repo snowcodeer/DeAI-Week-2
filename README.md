@@ -1,7 +1,9 @@
 # DeAI-Week-2
 
 ## Details
-Runs using a .env.local file containing OPENAI_API_KEY = XXXXX in the project root folder.
+- Runs using a .env.local file containing OPENAI_API_KEY = XXXXX in the project root folder.
+- Dropdown boxes allowing selection of tone and type of joke
+- Optional box to add extra input/comments
 
 ## Weekend Project
 To consolidate the knowledge acquired this week, students should complete the following project:
