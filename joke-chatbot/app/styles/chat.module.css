@@ -1,0 +1,128 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #121212; /* Dark background */
+  color: #ffffff;      /* Light text */
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.headerSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+
+.subTitle {
+  font-size: 1.25rem;
+  color: #cccccc;
+  margin: 0;
+}
+
+/* Card Container */
+.card {
+  background: #1e1e1e; /* Slightly lighter dark background for the card */
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Groups */
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.select,
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #2a2a2a; /* Dark input background */
+  color: #ffffff;       /* Light text inside inputs */
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: #555555;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  background: #0070f3;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  background: #005bb5;
+}
+
+/* Output Section */
+.output {
+  margin-top: 1.5rem;
+  min-height: 60px; /* Space to show joke output */
+}
+
+.placeholder {
+  color: #888888;
+  font-style: italic;
+}
+
+/* Messages */
+.message {
+  background: #2a2a2a;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+/* Chat Input Form (Optional) */
+.inputForm {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.inputForm .input {
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  text-align: center;
+  color: #888888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
