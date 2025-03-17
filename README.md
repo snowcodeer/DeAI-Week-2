@@ -1,6 +1,6 @@
-## DeAI-Week-2
+# DeAI-Week-2
 
-# Details
+## Details
 Runs using a .env.local file containing OPENAI_API_KEY = XXXXX in the project root folder.
 
 Weekend Project
