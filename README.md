@@ -3,7 +3,7 @@
 ## Details
 Runs using a .env.local file containing OPENAI_API_KEY = XXXXX in the project root folder.
 
-Weekend Project
+## Weekend Project
 To consolidate the knowledge acquired this week, students should complete the following project:
 
 Create a GitHub repository for your project
